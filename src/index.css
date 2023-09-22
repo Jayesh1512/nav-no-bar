@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+    padding:0;
+    background-image: url(/bg.jpg);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    overflow-x: none;
+    overflow-y: auto;
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-size: auto;
+        background-position-x:center ;
+    }
+}
